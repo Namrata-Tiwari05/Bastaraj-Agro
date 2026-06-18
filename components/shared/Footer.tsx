@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FiMapPin, FiPhone, FiMail, FiLayers, FiExternalLink } from 'react-icons/fi';
+import { FiMapPin, FiPhone, FiMail, FiExternalLink } from 'react-icons/fi';
 
 const Footer = () => {
   // Map array running direct paths identically matched to header route profiles
@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full bg-[#0a0f0d] text-white py-14 mt-auto relative border-t border-white/10 overflow-hidden">
+    <footer className="w-full bg-[#0D1713] text-white py-14 mt-auto relative border-t border-[#2C4538] overflow-hidden">
       
       {/* Subtle Premium Glow Line at the top center - Updated to Primary Green #41A61D */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[1px] bg-gradient-to-r from-transparent via-[#41A61D]/40 to-transparent"></div>
@@ -38,7 +38,7 @@ const Footer = () => {
                 sizes="(max-width: 768px) 192px, 200px" 
               />
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed pr-4 tracking-wide font-medium">
+            <p className="text-[#8EA39A] text-sm leading-relaxed pr-4 tracking-wide font-medium">
               Empowering farmers through profitable, sustainable commercial and medicinal plantations. Transforming agriculture into a scalable business.
             </p>
           </div>
@@ -54,10 +54,10 @@ const Footer = () => {
                 <li key={idx}>
                   <Link 
                     href={link.path}
-                    className="text-gray-400 active:text-[#41A61D] text-sm font-semibold transition-colors duration-200 flex items-center gap-1.5 group"
+                    className="text-[#8EA39A] hover:text-white hover:translate-x-1.5 text-sm font-semibold transition-all duration-300 flex items-center gap-1.5 group"
                   >
                     {/* Dot pointer indicator utilizes Primary brand hex */}
-                    <span className="w-1 h-1 rounded-full bg-[#41A61D]"></span>
+                    <span className="w-1 h-1 rounded-full bg-[#41A61D] group-hover:scale-125 transition-transform"></span>
                     {link.name}
                   </Link>
                 </li>
@@ -72,33 +72,33 @@ const Footer = () => {
               Contact Us
             </h4>
             
-            <div className="flex items-start gap-2.5 text-gray-400 text-sm font-medium">
+            <div className="flex items-start gap-2.5 text-[#8EA39A] text-sm font-medium hover:text-white transition-colors">
               <FiMapPin className="text-[#41A61D] shrink-0 mt-0.5 text-base" />
               <span>Mahatma Gandhi Industrial Park, Sarona, Kanker, Chhattisgarh</span>
             </div>
 
             {/* FIXED: Phone anchors bound with dialable structural tel nodes */}
-            <div className="flex items-center gap-2.5 text-gray-400 text-sm font-medium">
+            <div className="flex items-center gap-2.5 text-[#8EA39A] text-sm font-medium">
               <FiPhone className="text-[#41A61D] shrink-0 text-base" />
               <div className="flex flex-wrap gap-x-2 gap-y-1">
-                <a href="tel:+919301381805" className="active:text-[#41A61D] transition-colors font-bold">+91 9301381805</a>
+                <a href="tel:+919301381805" className="hover:text-white transition-colors font-bold">+91 9301381805</a>
                 <span className="text-gray-600">|</span>
-                <a href="tel:+917898860613" className="active:text-[#41A61D] transition-colors font-bold">+91 7898860613</a>
+                <a href="tel:+917898860613" className="hover:text-white transition-colors font-bold">+91 7898860613</a>
               </div>
             </div>
 
-            <div className="flex items-center gap-2.5 text-gray-400 text-sm font-medium">
+            <div className="flex items-center gap-2.5 text-[#8EA39A] text-sm font-medium">
               <FiMail className="text-[#41A61D] shrink-0 text-base" />
-              <a href="mailto:bastarraj01@gmail.com" className="active:text-[#41A61D] transition-colors font-bold">bastarraj01@gmail.com</a>
+              <a href="mailto:bastarraj01@gmail.com" className="hover:text-white transition-colors font-bold">bastarraj01@gmail.com</a>
             </div>
 
             {/* Industry Trust and Certification Badges - Clean static viewports optimized for mobile grids */}
             <div className="pt-2">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default">FSSAI</span>
-                <span className="bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default">STARTUP INDIA</span>
-                <span className="bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default">ISO 9001:2015</span>
-                <span className="bg-white/5 border border-white/10 text-gray-400 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default">MSME</span>
+                <span className="bg-[#12211C]/40 border border-[#2C4538] text-[#8EA39A] hover:text-white hover:border-[#41A61D]/50 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default transition-all duration-300">FSSAI</span>
+                <span className="bg-[#12211C]/40 border border-[#2C4538] text-[#8EA39A] hover:text-white hover:border-[#41A61D]/50 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default transition-all duration-300">STARTUP INDIA</span>
+                <span className="bg-[#12211C]/40 border border-[#2C4538] text-[#8EA39A] hover:text-white hover:border-[#41A61D]/50 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default transition-all duration-300">ISO 9001:2015</span>
+                <span className="bg-[#12211C]/40 border border-[#2C4538] text-[#8EA39A] hover:text-white hover:border-[#41A61D]/50 text-[10px] font-black tracking-wider px-3 py-1.5 rounded-xl backdrop-blur-md cursor-default transition-all duration-300">MSME</span>
               </div>
             </div>
           </div>
@@ -106,18 +106,18 @@ const Footer = () => {
         </div>
         
         {/* Copyright and Developer Accreditation */}
-        <div className="border-t border-white/10 mt-14 pt-8 text-center flex flex-col md:flex-row justify-between items-center select-none">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0 tracking-wide font-medium">
+        <div className="border-t border-[#2C4538] mt-14 pt-8 text-center flex flex-col md:flex-row justify-between items-center select-none">
+          <p className="text-[#8EA39A] text-sm mb-4 md:mb-0 tracking-wide font-medium">
             &copy; {new Date().getFullYear()} Bastarraj Agro Pvt. Ltd. All rights reserved.
           </p>
           {/* FIXED: Redirecting target link connected securely to CodeWebX server anchor */}
-          <p className="text-gray-500 text-xs tracking-wide font-medium flex items-center gap-1">
+          <p className="text-[#8EA39A] text-xs tracking-wide font-medium flex items-center gap-1">
             Designed & Developed by 
             <a 
               href="https://codewebx.in" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="font-black text-[#41A61D] tracking-wider active:text-[#E36911] transition-colors duration-200 flex items-center gap-0.5"
+              className="font-black text-[#41A61D] hover:text-[#348c15] tracking-wider transition-colors duration-200 flex items-center gap-0.5"
             >
               CodeWebX Technologies <FiExternalLink className="text-[10px]" />
             </a>

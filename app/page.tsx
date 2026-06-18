@@ -1,6 +1,5 @@
-"use client";
-
 import React from 'react';
+import type { Metadata } from 'next';
 import HeroSection from '@/components/home/HeroSection';
 import KeyStats from '@/components/home/KeyStats';
 import ProcessTimeline from '@/components/home/ProcessTimeline';
@@ -9,11 +8,19 @@ import Testimonials from '@/components/home/Testimonials';
 import OrderForm from '@/components/home/OrderForm';
 import ProfitCalculator from '@/components/home/ProfitCalculator';
 
+export const metadata: Metadata = {
+  title: 'Home | Bastarraj Agro | Premium Commercial & Medicinal Plantation',
+  description: 'Empowering farmers & investors with high-yield Mahogany, Malabar Neem, Ashwagandha, and Black Turmeric plantations in Chhattisgarh. Transition from traditional agriculture to profitable business.',
+  alternates: {
+    canonical: '/',
+  },
+};
+
 export default function Home() {
   return (
     // SEAMLESS UPDATE: Changed bg-white to bg-[#0a0f0d] (deep dark theme)
     // This acts as the continuous dark canvas for all our premium sections.
-    <main className="flex min-h-screen flex-col items-center justify-start bg-[#0a0f0d] w-full overflow-x-hidden">
+    <main className="flex min-h-screen flex-col items-center justify-start bg-[#0D1713] w-full overflow-x-hidden">
       
       {/* 1. Hero Section: Full-screen visual overlay */}
       {/* Removed any wrapper spacing to let the hero completely cover the top */}
