@@ -5,7 +5,7 @@ import { FiShield, FiTrendingUp, FiCheckCircle, FiCompass, FiTarget } from 'reac
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Bastarraj Agro Pvt. Ltd., our mission to convert barren lands into high-yield commercial crop systems, and our leadership board in Chhattisgarh.',
+  description: 'Learn about Swarnim Agro Forestry Pvt. Ltd., our mission to convert barren lands into high-yield commercial crop systems, and our leadership board in Chhattisgarh.',
   alternates: {
     canonical: '/about',
   },
@@ -43,8 +43,8 @@ const AboutPage = () => {
             </div>
             {/* FIXED: Removed Text Gradient, replaced with brand primary solid #41A61D */}
             <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-none font-sans">
-              Bastarraj <br className="hidden lg:block" />
-              <span className="text-[#41A61D] drop-shadow-[0_0_15px_rgba(65,166,29,0.3)]">Agro Pvt. Ltd.</span>
+              Swarnim <br className="hidden lg:block" />
+              <span className="text-[#41A61D] drop-shadow-[0_0_15px_rgba(65,166,29,0.3)]">Agro Forestry</span>
             </h1>
             <p className="text-sm sm:text-base text-[#8EA39A] font-bold leading-relaxed max-w-lg mx-auto lg:mx-0">
               Bridges premium commercial forestry pipelines with deep asset protection safety rules and eco-tech operations.

@@ -269,7 +269,6 @@ const ProcessTimeline = () => {
                 {steps.map((step, index) => {
                   const isActive = activeStep === step.id;
                   const isCompleted = activeStep > step.id;
-                  const isFuture = activeStep < step.id;
                   return (
                     <motion.div
                       key={step.id}

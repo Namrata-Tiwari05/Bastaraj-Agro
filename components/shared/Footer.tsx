@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="mb-6 relative h-16 w-48">
               <Image 
                 src="/logo.webp" 
-                alt="Bastarraj Agro Logo" 
+                alt="Swarnim Agro Forestry Logo" 
                 fill
                 className="object-contain object-left drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]" 
                 priority={false}
@@ -89,7 +89,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2.5 text-[#8EA39A] text-sm font-medium">
               <FiMail className="text-[#41A61D] shrink-0 text-base" />
-              <a href="mailto:bastarraj01@gmail.com" className="hover:text-white transition-colors font-bold">bastarraj01@gmail.com</a>
+              <a href="mailto:swarnimagroforestry@gmail.com" className="hover:text-white transition-colors font-bold">swarnimagroforestry@gmail.com</a>
             </div>
 
             {/* Industry Trust and Certification Badges - Clean static viewports optimized for mobile grids */}
@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Copyright and Developer Accreditation */}
         <div className="border-t border-[#2C4538] mt-14 pt-8 text-center flex flex-col md:flex-row justify-between items-center select-none">
           <p className="text-[#8EA39A] text-sm mb-4 md:mb-0 tracking-wide font-medium">
-            &copy; {new Date().getFullYear()} Bastarraj Agro Pvt. Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Swarnim Agro Forestry Pvt. Ltd. All rights reserved.
           </p>
           {/* FIXED: Redirecting target link connected securely to CodeWebX server anchor */}
           <p className="text-[#8EA39A] text-xs tracking-wide font-medium flex items-center gap-1">

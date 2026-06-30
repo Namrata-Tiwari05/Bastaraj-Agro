@@ -101,7 +101,7 @@ const GalleryContent = () => {
                 <div className="absolute bottom-5 left-5 right-5 z-20 flex items-center justify-between">
                   <div className="flex flex-col pr-4">
                     {/* Highlighted context tag with Secondary Orange #E36911 */}
-                    <span className="text-[10px] font-bold tracking-widest text-[#E36911] uppercase">Bastarraj Field Log</span>
+                    <span className="text-[10px] font-bold tracking-widest text-[#E36911] uppercase">Swarnim Field Log</span>
                     <h3 className="text-base sm:text-lg font-black text-white tracking-tight mt-0.5 leading-tight group-hover:text-[#41A61D] transition-colors duration-300">
                       {item.title}
                     </h3>

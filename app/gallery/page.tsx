@@ -4,7 +4,7 @@ import GalleryContent from '@/components/gallery/GalleryContent';
 
 export const metadata: Metadata = {
   title: 'Media Gallery',
-  description: 'View real project images, tree growth cycles, and farm site maintenance operations of Bastarraj Agro in Chhattisgarh.',
+  description: 'View real project images, tree growth cycles, and farm site maintenance operations of Swarnim Agro Forestry in Chhattisgarh.',
   alternates: {
     canonical: '/gallery',
   },

@@ -59,7 +59,7 @@ const Header = () => {
               <Link href="/" className="relative h-14 w-14 rounded-full flex items-center transition-transform duration-300 hover:scale-105 overflow-hidden bg-[#16261F] border border-[#2C4538]">
                 <Image
                   src="/logo.webp"
-                  alt="Bastarraj Agro Logo"
+                  alt="Swarnim Agro Forestry Logo"
                   fill
                   className="object-contain object-center drop-shadow-[0_0_8px_rgba(65,166,29,0.2)]"
                   priority={true}
@@ -70,10 +70,10 @@ const Header = () => {
               {/* FIXED: Added clear corporate premium brand name text tracking structure */}
               <Link href="/" className="flex flex-col justify-center select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                 <span className="text-xl font-black text-white tracking-tight leading-none">
-                  Bastarraj <span className="text-[#41A61D]">Agro</span>
+                  Swarnim <span className="text-[#41A61D]">Agro</span>
                 </span>
                 <span className="text-[10px] font-bold text-[#8EA39A] tracking-widest uppercase mt-0.5">
-                  Pvt. Ltd.
+                  Forestry
                 </span>
               </Link>
             </div>

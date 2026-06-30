@@ -38,11 +38,12 @@ const CountUpNumber = ({ value }: { value: string }) => {
   useEffect(() => {
     if (!isInView) return;
 
-    // Parse the numeric part and non-numeric suffix (e.g. "500+" or "2.5L+")
     const numMatch = value.match(/^([0-9.]+)(.*)$/);
     if (!numMatch) {
-      setDisplayValue(value);
-      return;
+      const timer = setTimeout(() => {
+        setDisplayValue(value);
+      }, 0);
+      return () => clearTimeout(timer);
     }
 
     const targetNum = parseFloat(numMatch[1]);

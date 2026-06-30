@@ -39,7 +39,7 @@ const ProductInventory = () => {
   const getWhatsAppLink = (productName: string, category: string) => {
     const phoneNumber = "917999618106"; // Updated to primary desk contact
     
-    const rawMessage = `🌱 *Bastarraj Agro - New Plant Inquiry*\n` +
+    const rawMessage = `🌱 *Swarnim Agro Forestry - New Plant Inquiry*\n` +
                        `--------------------------------------\n` +
                        `• *Plant Species:* ${productName}\n` +
                        `• *Category:* ${category}\n` +

@@ -76,9 +76,9 @@ const buttonVariants = {
 const HeroSection = () => {
   // Real-time custom detailed conversion string configuration (100% Intact)
   const getWhatsAppLink = () => {
-    const phoneNumber = "917999618106"; // Bastarraj Agro Primary Desk Contact
+    const phoneNumber = "917999618106"; // Swarnim Agro Forestry Primary Desk Contact
     
-    const rawMessage = `🌿 *Bastarraj Agro - New Portal Inquiry*\n` +
+    const rawMessage = `🌿 *Swarnim Agro Forestry - New Portal Inquiry*\n` +
                        `--------------------------------------\n` +
                        `*नमस्ते, मैं आपके औषधीय और कमर्शियल प्लांटेशन...*`;
                        
@@ -126,7 +126,7 @@ const HeroSection = () => {
           >
             <Image 
               src={images[currentImageIndex]} 
-              alt={`Bastarraj Agro Slide ${currentImageIndex + 1}`}
+              alt={`Swarnim Agro Forestry Slide ${currentImageIndex + 1}`}
               fill
               quality={95} // Force highest visual quality output
               className="object-cover object-center" 
@@ -138,10 +138,10 @@ const HeroSection = () => {
       </div>
 
       {/* 2. Balanced Left-Sided Dark Gradient Overlay for Cinematic Text Readability & Image Vibrancy */}
-      <div className="absolute inset-0 z-1 bg-gradient-to-r from-black/55 via-black/20 to-transparent"></div>
+      <div className="absolute inset-0 z-1 bg-linear-to-r from-black/55 via-black/20 to-transparent"></div>
       
       {/* 3. Subtle bottom vignette shadow overlay - Balanced for High Image Visibility */}
-      <div className="absolute inset-0 z-1 bg-gradient-to-t from-black/40 via-black/5 to-transparent"></div>
+      <div className="absolute inset-0 z-1 bg-linear-to-t from-black/40 via-black/5 to-transparent"></div>
 
       {/* 3.5. Cinematic Radial Green Glow behind the Tree area on the right */}
       <div className="absolute inset-0 z-1 bg-[radial-gradient(circle_at_80%_50%,rgba(65,166,29,0.12),transparent_50%)]"></div>
@@ -150,9 +150,9 @@ const HeroSection = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto pl-4 pr-6 sm:pl-6 sm:pr-8 lg:pl-8 lg:pr-16 flex flex-col justify-between h-full pt-32 pb-12">
         
         {/* Card wrapper container - centered vertically */}
-        <div className="flex-grow flex flex-col justify-center items-start w-full">
+        <div className="grow flex flex-col justify-center items-start w-full">
           {/* Luxury Glassmorphic Overlay Card wrapping the Hero text content - max-width 600px to balance visibility and space */}
-          <div className="backdrop-blur-xl bg-[#16261F]/85 border border-[#2C4538] shadow-[0_10px_40px_rgba(0,0,0,0.25)] rounded-3xl p-6 sm:p-10 w-full max-w-[600px] text-left select-none min-h-[360px] sm:min-h-[420px] flex flex-col justify-center hover:bg-[#1B2D25] transition-all duration-300">
+          <div className="backdrop-blur-xl bg-[#16261F]/85 border border-[#2C4538] shadow-[0_10px_40px_rgba(0,0,0,0.25)] rounded-3xl p-6 sm:p-10 w-full max-w-150 text-left select-none min-h-90 sm:min-h-105 flex flex-col justify-center hover:bg-[#1B2D25] transition-all duration-300">
             <AnimatePresence mode="wait">
               <motion.div 
                 key={currentImageIndex}
@@ -267,8 +267,8 @@ const HeroSection = () => {
 
         {/* 5. Bottom Hero Stats Overlay (Desktop Only - Rendered in-flow at bottom to prevent overlaps) */}
         <div className="w-full hidden md:grid grid-cols-3 gap-8 max-w-4xl border-t border-[#2C4538] pt-8 mt-8 pb-4">
-          <div className="flex items-center gap-4 transition-all duration-300 hover:translate-y-[-2px]">
-            <FaTree className="text-4xl text-[#41A61D] flex-shrink-0" />
+          <div className="flex items-center gap-4 transition-all duration-300 hover:-translate-y-0.5">
+            <FaTree className="text-4xl text-[#41A61D] shrink-0" />
             <div>
               <h4 className="text-xl font-bold text-white leading-none">500+ Acres</h4>
               <p className="text-[10px] text-[#8EA39A] font-extrabold mt-1.5 uppercase tracking-wider">
@@ -276,8 +276,8 @@ const HeroSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 transition-all duration-300 hover:translate-y-[-2px]">
-            <FaShieldAlt className="text-4xl text-[#41A61D] flex-shrink-0" />
+          <div className="flex items-center gap-4 transition-all duration-300 hover:-translate-y-0.5">
+            <FaShieldAlt className="text-4xl text-[#41A61D] shrink-0" />
             <div>
               <h4 className="text-xl font-bold text-white leading-none">100% Secure</h4>
               <p className="text-[10px] text-[#8EA39A] font-extrabold mt-1.5 uppercase tracking-wider">
@@ -285,8 +285,8 @@ const HeroSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 transition-all duration-300 hover:translate-y-[-2px]">
-            <FaLeaf className="text-4xl text-[#41A61D] flex-shrink-0" />
+          <div className="flex items-center gap-4 transition-all duration-300 hover:-translate-y-0.5">
+            <FaLeaf className="text-4xl text-[#41A61D] shrink-0" />
             <div>
               <h4 className="text-xl font-bold text-white leading-none">Certified Stock</h4>
               <p className="text-[10px] text-[#8EA39A] font-extrabold mt-1.5 uppercase tracking-wider">

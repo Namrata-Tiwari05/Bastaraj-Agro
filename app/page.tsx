@@ -9,7 +9,7 @@ import OrderForm from '@/components/home/OrderForm';
 import ProfitCalculator from '@/components/home/ProfitCalculator';
 
 export const metadata: Metadata = {
-  title: 'Home | Bastarraj Agro | Premium Commercial & Medicinal Plantation',
+  title: 'Home | Swarnim Agro Forestry | Premium Commercial & Medicinal Plantation',
   description: 'Empowering farmers & investors with high-yield Mahogany, Malabar Neem, Ashwagandha, and Black Turmeric plantations in Chhattisgarh. Transition from traditional agriculture to profitable business.',
   alternates: {
     canonical: '/',

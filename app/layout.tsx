@@ -13,29 +13,29 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Bastarraj Agro | High-Yield Commercial & Medicinal Plantation',
-    template: '%s | Bastarraj Agro'
+    default: 'Swarnim Agro Forestry | High-Yield Commercial & Medicinal Plantation',
+    template: '%s | Swarnim Agro Forestry'
   },
   description: 'Empowering farmers & investors to transition to high-yield commercial timber (Mahogany, Malabar Neem) and medicinal plantations (Ashwagandha, Black Turmeric) in Chhattisgarh.',
-  keywords: ['Bastarraj Agro', 'Mahogany plantation Chhattisgarh', 'Medicinal farming India', 'Commercial timber forestry', 'Ashwagandha contract farming', 'Black Turmeric cultivation', 'Agricultural investment India'],
-  authors: [{ name: 'Bastarraj Agro Pvt. Ltd.' }],
-  creator: 'Bastarraj Agro Pvt. Ltd.',
-  publisher: 'Bastarraj Agro Pvt. Ltd.',
-  metadataBase: new URL('https://bastarrajagro.com'),
+  keywords: ['Swarnim Agro Forestry', 'Mahogany plantation Chhattisgarh', 'Medicinal farming India', 'Commercial timber forestry', 'Ashwagandha contract farming', 'Black Turmeric cultivation', 'Agricultural investment India'],
+  authors: [{ name: 'Swarnim Agro Forestry Pvt. Ltd.' }],
+  creator: 'Swarnim Agro Forestry Pvt. Ltd.',
+  publisher: 'Swarnim Agro Forestry Pvt. Ltd.',
+  metadataBase: new URL('https://swarnimagroforestry.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Bastarraj Agro | Premium Commercial & Medicinal Plantation',
+    title: 'Swarnim Agro Forestry | Premium Commercial & Medicinal Plantation',
     description: 'Empowering farmers & investors with high-yield commercial and medicinal crop cultivation.',
-    url: 'https://bastarrajagro.com',
-    siteName: 'Bastarraj Agro',
+    url: 'https://swarnimagroforestry.com',
+    siteName: 'Swarnim Agro Forestry',
     images: [
       {
         url: '/logo.webp',
         width: 800,
         height: 600,
-        alt: 'Bastarraj Agro Logo',
+        alt: 'Swarnim Agro Forestry Logo',
       },
     ],
     locale: 'en_IN',

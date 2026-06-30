@@ -5,7 +5,7 @@ import { FiMapPin, FiActivity, FiShield, FiTruck, FiCheckCircle } from 'react-ic
 
 export const metadata: Metadata = {
   title: 'Our Services',
-  description: 'Explore the full agricultural workflow support from Bastarraj Agro Pvt. Ltd. including soil testing, plantation setup, legal buyback security, and harvesting support.',
+  description: 'Explore the full agricultural workflow support from Swarnim Agro Forestry Pvt. Ltd. including soil testing, plantation setup, legal buyback security, and harvesting support.',
   alternates: {
     canonical: '/services',
   },
@@ -79,7 +79,7 @@ const ServicesPage = () => {
           <div className="lg:col-span-7 w-full h-[280px] sm:h-[400px] relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-[#2C4538] bg-[#16261F]/50">
             <Image 
               src="/img3.webp" 
-              alt="Bastarraj Farming Work" 
+              alt="Swarnim Farming Work" 
               fill 
               quality={100}
               priority={true}

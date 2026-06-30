@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { FaStar, FaQuoteLeft } from 'react-icons/fa';
 import { FiUser } from 'react-icons/fi';
 import { motion } from 'framer-motion';
@@ -96,13 +96,13 @@ const Testimonials = () => {
     {
       name: "Rajesh Kumar Sahu",
       role: "Commercial Farmer, Kanker",
-      text: "Bastarraj Agro ke Mahogany plantation model se meri khali padi zameen ab ek investment asset ban gayi hai. Inki team ki technical guidance kamaal ki hai.",
+      text: "Swarnim Agro Forestry ke Mahogany plantation model se meri khali padi zameen ab ek investment asset ban gayi hai. Inki team ki technical guidance kamaal ki hai.",
       rating: 5,
     },
     {
       name: "Dr. Alok Agrawal",
       role: "Agro Investor, Raipur",
-      text: "Medicinal plants jaise Ashwagandha aur Turmeric ki market mein high demand hai. Bastarraj Agro ke saath contract farming karna ek secure aur highly profitable deal sabit hua.",
+      text: "Medicinal plants jaise Ashwagandha aur Turmeric ki market mein high demand hai. Swarnim Agro Forestry ke saath contract farming karna ek secure aur highly profitable deal sabit hua.",
       rating: 5,
     },
     {
@@ -148,7 +148,7 @@ const Testimonials = () => {
             transition={{ delay: 0.4, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-[#C6D1CC] text-base sm:text-lg font-medium"
           >
-            Suniye unki kahani jo Bastarraj Agro ke high-yield plantation models se judkar apne agricultural land ko ek scalable business mein badal chuke hain.
+            Suniye unki kahani jo Swarnim Agro Forestry ke high-yield plantation models se judkar apne agricultural land ko ek scalable business mein badal chuke hain.
           </motion.p>
         </div>
 
