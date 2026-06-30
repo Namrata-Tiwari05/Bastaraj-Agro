@@ -58,7 +58,7 @@ const Header = () => {
             <div className="flex-1 flex items-center justify-start py-2 gap-3">
               <Link href="/" className="relative h-14 w-14 rounded-full flex items-center transition-transform duration-300 hover:scale-105 overflow-hidden bg-[#16261F] border border-[#2C4538]">
                 <Image
-                  src="/logo.webp"
+                  src="/logo-swarnim.webp"
                   alt="Swarnim Agro Forestry Logo"
                   fill
                   className="object-contain object-center drop-shadow-[0_0_8px_rgba(65,166,29,0.2)]"

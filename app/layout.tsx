@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Swarnim Agro Forestry',
     images: [
       {
-        url: '/logo.webp',
+        url: '/logo-swarnim.webp',
         width: 800,
         height: 600,
         alt: 'Swarnim Agro Forestry Logo',

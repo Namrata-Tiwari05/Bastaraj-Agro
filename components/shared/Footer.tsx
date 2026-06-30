@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="md:col-span-4">
             <div className="mb-6 relative h-16 w-48">
               <Image 
-                src="/logo.webp" 
+                src="/logo-swarnim.webp" 
                 alt="Swarnim Agro Forestry Logo" 
                 fill
                 className="object-contain object-left drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]" 
